@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Portfolio of David-Andrei Decă, Computer Engineering student, junior developer and game design enthusiast."
+    >
+
+    <title>David-Andrei Decă | Portfolio</title>
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="Images/bugfixicon.png"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+    <a href="#home" class="logo">David Decă</a>
+
+    <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links"
+    >
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#studies">Design Studies</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="small-title">Hello, I am</p>
+
+                <h1>David-Andrei Decă</h1>
+
+                <h2>
+                    Computer Engineering Student,
+                    Junior Developer and Game Design Enthusiast
+                </h2>
+
+                <p class="hero-description">
+                    I create games, solve programming problems and study
+                    how systems influence player decisions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary-button">
+                        View My Work
+                    </a>
+
+                    <a
+                        href="https://splashythereal.itch.io/bugfix"
+                        class="button secondary-button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Play BugFix
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a
+                        href="https://github.com/SplashyTheReal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/davidandreideca/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+
+                    <a
+                        href="https://splashythereal.itch.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        itch.io
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p>My Work</p>
+                <h2>Projects</h2>
+            </div>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img
+                        src="Images/bugfiximage1.png"
+                        alt="BugFix main menu"
+                    >
+                </div>
+
+                <div class="project-content">
+                    <p class="project-type">Game Development</p>
+
+                    <div class="project-title">
+                        <img
+                            src="Images/bugfixicon.png"
+                            alt=""
+                            class="project-icon"
+                        >
+                        <h3>BugFix</h3>
+                    </div>
+
+                    <p>
+                        BugFix is a 2D educational score-attack game made in Godot.
+                        The player moves through lines of code and repairs different
+                        types of bugs before too many errors become active.
+                    </p>
+
+                    <p>
+                        I developed the gameplay systems, enemy types, scoring,
+                        achievements, saved progress, menus and audio.
+                    </p>
+
+                    <div class="tags">
+                        <span>Godot</span>
+                        <span>GDScript</span>
+                        <span>Game Design</span>
+                        <span>Testing</span>
+                    </div>
+
+                    <a
+                        href="https://splashythereal.itch.io/bugfix"
+                        class="text-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Play on itch.io →
+                    </a>
+                </div>
+            </article>
+
+            <div class="project-gallery">
+                <figure>
+                    <img
+                        src="Images/bugfiximage4.png"
+                        alt="BugFix gameplay screenshot"
+                        loading="lazy"
+                    >
+                </figure>
+
+                <figure>
+                    <img
+                        src="Images/bugfixdeathscreen.png"
+                        alt="BugFix game over screen"
+                        loading="lazy"
+                    >
+                </figure>
+
+                <figure>
+                    <img
+                        src="Images/bugfiximage1.png"
+                        alt="BugFix main menu"
+                        loading="lazy"
+                    >
+                </figure>
+
+                <figure>
+                    <img
+                        src="Images/BugfixImage2.png"
+                        alt="BugFix instructions screen"
+                        loading="lazy"
+                    >
+                </figure>
+
+                <figure>
+                    <img
+                        src="Images/BugfixImage3.png"
+                        alt="BugFix achievements screen"
+                        loading="lazy"
+                    >
+                </figure>
+
+                <figure>
+                    <img
+                        src="Images/bugfiximage5.png"
+                        alt="BugFix gameplay with active code bugs"
+                        loading="lazy"
+                    >
+                </figure>
+            </div>
+        </section>
+
+        <section id="studies" class="section">
+            <div class="section-heading">
+                <p>Analysis</p>
+                <h2>Design Studies</h2>
+            </div>
+
+            <div class="study-grid">
+                <article class="study-card">
+                    <p class="study-type">League of Legends</p>
+
+                    <h3>The Scoreboard Lies</h3>
+
+                    <p>
+                        A scenario-based analysis of top-lane roaming,
+                        opportunity cost and the difference between visible
+                        success and real strategic value.
+                    </p>
+
+                    <div class="study-links">
+                        <a
+                            href="documents/David_Andrei_Deca_The_Scoreboard_Lies_Case_Study.pdf"
+                            class="text-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Read case study →
+                        </a>
+
+                        <a
+                            href="documents/The_Scoreboard_Lies_Roam_Analysis.xlsx"
+                            class="text-link"
+                            download
+                        >
+                            Download supporting data →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="study-card">
+                    <p class="study-type">BugFix</p>
+
+                    <h3>Simple Game Design Review</h3>
+
+                    <p>
+                        A short review of BugFix focused on difficulty
+                        progression, player feedback, scoring, enemy variety
+                        and lessons learned during development.
+                    </p>
+
+                    <a
+                        href="documents/BugFix_Simple_Game_Design_Review_David_Andrei_Deca.pdf"
+                        class="text-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Read project review →
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p>Who I Am</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    I am a Computer Engineering student at the University of
+                    Craiova. I am interested in software development, game
+                    development, quality assurance and competitive game
+                    systems.
+                </p>
+
+                <p>
+                    I enjoy understanding how systems work, finding problems
+                    and improving the experience of the user or player. I have
+                    worked with C++, GDScript, PHP, HTML and CSS.
+                </p>
+            </div>
+        </section>
+
+        <section id="achievements" class="section">
+            <div class="section-heading">
+                <p>Experience</p>
+                <h2>Skills & Achievements</h2>
+            </div>
+
+            <div class="info-grid">
+                <article class="info-card">
+                    <h3>Programming</h3>
+                    <p>C++, GDScript, PHP, HTML and CSS</p>
+                </article>
+
+                <article class="info-card">
+                    <h3>Tools</h3>
+                    <p>Godot, Git, GitHub, Krita and Adobe Premiere Pro</p>
+                </article>
+
+                <article class="info-card">
+                    <h3>Achievements</h3>
+                    <p>
+                        ONTI Silver Medal, ONTI Bronze Medal,
+                        Cambridge English C1 and iTEC participation
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <h3>Other Experience</h3>
+                    <p>
+                        Master rank in League of Legends and
+                        60+ LeetCode problems solved
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="section-heading">
+                <p>Get in Touch</p>
+                <h2>Contact</h2>
+            </div>
+
+            <p>
+                I am open to entry-level opportunities, collaborations
+                and projects where I can learn and contribute.
+            </p>
+
+            <a
+                href="mailto:deca.david.andrei@gmail.com"
+                class="contact-email"
+            >
+                deca.david.andrei@gmail.com
+            </a>
+
+            <div class="contact-buttons">
+                <a
+                    href="CV/CV_David_Andrei_Deca_EN.pdf"
+                    class="button primary-button"
+                    download
+                >
+                    Download English CV
+                </a>
+
+                <a
+                    href="CV/CV_David_Andrei_Deca_RO.pdf"
+                    class="button secondary-button"
+                    download
+                >
+                    Download Romanian CV
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>
+            © <span id="current-year"></span> David Andrei Decă
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
